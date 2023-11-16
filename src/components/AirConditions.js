@@ -23,9 +23,9 @@ export default class AirConditions extends Component {
           <div className="title">
             <div className="title_w_icon">
               <img src={air_conditions_icon} alt="" />
-              <span style={{ fontSize: 32 }}>{formattedTime} GMT</span>
+              <span className="text" >{formattedTime} GMT</span>
             </div>
-            <span style={{ fontSize: 32, fontWeight: "bold" }}>
+            <span className="text" style={{fontWeight: "bold" }}>
               AIR CONDITIONS
             </span>
           </div>

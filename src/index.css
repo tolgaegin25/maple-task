@@ -1,7 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background: url("./assets/images/bg-gray.png"), lightgray 50% / cover no-repeat;
+  background: url("./assets/images/bg-gray.png"), lightgray;
+  background-size: auto;
+  background-repeat:no-repeat ;
   font-family: "Inter", sans-serif;
   color:white;
   overflow-x: hidden;
