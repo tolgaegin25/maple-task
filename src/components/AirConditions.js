@@ -13,8 +13,6 @@ export default class AirConditions extends Component {
       minute: "2-digit",
       timeZone: "GMT",
     });
-
-    console.log(formattedTime);
     const titles = ["Real Feel", "Change of Rain", "Wind", "UV Index"];
     const units = ["°", "%", "km/hr", ""];
     return (
@@ -23,9 +21,9 @@ export default class AirConditions extends Component {
           <div className="title">
             <div className="title_w_icon">
               <img src={air_conditions_icon} alt="" />
-              <span className="text" >{formattedTime} GMT</span>
+              <span className="text">{formattedTime} GMT</span>
             </div>
-            <span className="text" style={{fontWeight: "bold" }}>
+            <span className="text" style={{ fontWeight: "bold" }}>
               AIR CONDITIONS
             </span>
           </div>
